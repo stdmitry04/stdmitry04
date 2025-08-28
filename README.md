@@ -1,8 +1,8 @@
 # Hi, I'm Dmitry 👋  
 
-🎓 Computer Science student @ MSU  
+🎓 Computer Science student @MSU  
 💻 Building projects in **Web Dev, AI**  
-🚀 Interested in SaaS, startups, and product development  
+🚀 Interested in SaaS, tech leadership, and product development
 
 ### 🔧 Tech I use
 - **Frontend:** React, Next.js, TypeScript, TailwindCSS  
@@ -11,9 +11,9 @@
 
 ### 📌 Current Projects
 🧤 **CourseChecker** – web app to view course reviews
-- link: coursechecker.xyz
+- link: https://coursechecker.xyz
 - github link: https://github.com/neontap/spartahack
 
-🍹 **Daze** – app showing bar cover prices & crowd levels  
+🍹 **Daze** – app showing bar cover prices & crowd levels
 
 📫 Reach me on [LinkedIn](https://linkedin.com/in/stdmitry04) or here on GitHub!
