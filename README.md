@@ -11,7 +11,6 @@
 
 ### 📌 Current Projects
 🧤 **CourseChecker** – web app to view course reviews
-- link: https://coursechecker.xyz
 - github link: https://github.com/neontap/spartahack
 
 🍹 **Daze** – app showing bar cover prices & crowd levels
