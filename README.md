@@ -13,8 +13,10 @@
 ### 📌 Current Projects
 **CourseChecker** – view every college course reviews (developed for Spartahack X hackathon)
 - github link: https://github.com/neontap/spartahack
+  
 **QuiKard** – generate a personalized business card in under 1 minute
-  - github link: *in progress*
+- github link: *in progress*
+    
 🍹 **Daze** – app showing bar cover prices & crowd levels
 
 📫 Reach me on [LinkedIn](https://linkedin.com/in/stdmitry04) or here on GitHub!
