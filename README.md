@@ -11,9 +11,9 @@
 - **Tools:** AWS, Docker, Terraform, PostgreSQL
 
 ### 📌 Current Projects
-**CourseChecker** – web app to view course reviews (developed for Spartahack X hackathon)
+**CourseChecker** – view every college course reviews (developed for Spartahack X hackathon)
 - github link: https://github.com/neontap/spartahack
-**QuiKard** – wep app allowing you to generate a personalized business card in under 1 minute
+**QuiKard** – generate a personalized business card in under 1 minute
   - github link: *in progress*
 🍹 **Daze** – app showing bar cover prices & crowd levels
 
