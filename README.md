@@ -15,7 +15,8 @@
 - github link: https://github.com/neontap/spartahack
   
 **QuiKard** – generate a personalized business card in under 1 minute
-- github link: *in progress*
+- project link: https://quikard.net
+- github link: not available
     
 🍹 **Daze** – app showing bar cover prices & crowd levels
 
