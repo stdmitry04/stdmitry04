@@ -5,8 +5,8 @@
 🚀 Interested in tech leadership and product development
 
 ### 🔧 Tech I use
-- **Frontend:** React, Next.js, JavaScript/TypeScript, TailwindCSS  
-- **Backend:** Django, REST Framework, Go, Node.js
+- **Frontend:** React, Next.js, TypeScript/JavaScript, TailwindCSS  
+- **Backend:** Django, FastAPI, Go, Node.js
 - **AI/Agentic Systems:** LangChain, OpenAI API, Python ML libraries
 - **Tools:** AWS, Docker, Terraform, PostgreSQL
 
