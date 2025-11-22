@@ -13,7 +13,7 @@ Building production AI-powered ATS systems processing 1000+ applications daily f
 **AI-Powered Application Screening System**
 - RAG-based chatbot with vector embeddings for intelligent document processing
 - Automated applicant routing reducing manual review time by 60%
-- Tech: LangChain, OpenAI API, Pinecone, FastAPI
+- Tech: Next.js, Django, Qdrant, Docker
 
 **Admissions & Onboarding Platform**
 - React/Next.js platform supporting 500+ concurrent users with 99.9% uptime
