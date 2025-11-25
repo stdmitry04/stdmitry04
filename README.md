@@ -7,13 +7,13 @@ Building production AI-powered ATS systems processing 1000+ applications daily f
 
 ### Key Systems I've Built (Under NDA)
 
-**AI-Powered Application Screening System** → [**See Demo**](https://github.com/stdmitry04/campus-usa-demo)
+**AI-Powered Application Screening System** → [**See Demo**](https://github.com/stdmitry04/aps-main-demo)
 - RAG-based chatbot with vector embeddings for intelligent document processing
 - OCR pipeline extracting structured data from unstructured documents (transcripts, resumes, letters)
 - Automated applicant routing reducing manual review time by 60%
 - Tech: Next.js, Django, Qdrant, OpenAI API, Docker
 
-**Admissions & Onboarding Platform** → [**See Demo**](https://github.com/stdmitry04/aps-main-demo)
+**Admissions & Onboarding Platform** → [**See Demo**](https://github.com/stdmitry04/campus-usa-demo)
 - React/Next.js platform supporting 500+ concurrent users with 99.9% uptime
 - Real-time interview scheduling with automated email workflows
 - Multi-stage offer management with role-based permissions
