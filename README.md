@@ -47,12 +47,10 @@ Building production AI-powered ATS systems processing 1000+ applications daily f
 
 ### [Applicant Tracking Platform](https://github.com/stdmitry04/aps-main-demo)
 **What I built and can show:**
-- Templated Offer System: Dynamic offer letter generation with {{field}} placeholder extraction, template preview API, and real-time field auto-population
-- Custom Position Creation: Built from scratch or template-based with multi-stage interview configuration, screening question M2M relationships, and nested serializer patterns (InterviewStage → Interviewer hierarchy)
-- Onboarding Workflow: Token-based candidate access system with 8-section form progression, JSONField data storage, document verification pipeline, and comprehensive audit logging
-- Advanced Django Patterns: List vs Detail serializers, district-isolated multi-tenancy via ForeignKey + middleware, auto-populated nested writes with perform_create() overrides
-- RESTful API Design: Custom actions (@action decorators) for workflow state transitions, public/authenticated endpoint splitting, and complex filtering (Q objects, date ranges, stage progression)
-
+- Dynamic offer templates with field extraction ({{candidateName}}, {{salary}}, etc.)
+- Multi-stage interview management with nested data structures
+- Token-based onboarding system with document verification
+- Multi-tenant architecture with district isolation and role-based permissions
 
 **What's under NDA:**
 - DocuSign/ERP integrations
