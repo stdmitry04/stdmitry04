@@ -36,6 +36,7 @@ Building production AI-powered ATS systems processing 1000+ applications daily f
 - RAG chatbot with vector embeddings (Qdrant)
 - OCR pipeline for document extraction (transcripts, PDFs)
 - Django REST API with OpenAI integration
+- Essay & Letter Of Recommendation scoring systems
 - Document processing workflows
 
 **What's under NDA:**
@@ -46,10 +47,12 @@ Building production AI-powered ATS systems processing 1000+ applications daily f
 
 ### [Applicant Tracking Platform](https://github.com/stdmitry04/aps-main-demo)
 **What I built and can show:**
-- Django REST API with role-based access control (RBAC)
-- Next.js frontend with applicant management interface
-- PostgreSQL schema design for hiring workflows
-- Docker containerization and deployment configuration
+- Templated Offer System: Dynamic offer letter generation with {{field}} placeholder extraction, template preview API, and real-time field auto-population
+- Custom Position Creation: Built from scratch or template-based with multi-stage interview configuration, screening question M2M relationships, and nested serializer patterns (InterviewStage → Interviewer hierarchy)
+- Onboarding Workflow: Token-based candidate access system with 8-section form progression, JSONField data storage, document verification pipeline, and comprehensive audit logging
+- Advanced Django Patterns: List vs Detail serializers, district-isolated multi-tenancy via ForeignKey + middleware, auto-populated nested writes with perform_create() overrides
+- RESTful API Design: Custom actions (@action decorators) for workflow state transitions, public/authenticated endpoint splitting, and complex filtering (Q objects, date ranges, stage progression)
+
 
 **What's under NDA:**
 - DocuSign/ERP integrations
