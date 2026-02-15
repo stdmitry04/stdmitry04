@@ -2,7 +2,7 @@
 Full-stack engineer building AI-powered hiring platforms and high-load B2B systems.
 
 ## Professional Work
-**Software Developer Intern @ APS Data Technologies** | April 2024 - Present  
+**Software Developer @ APS Data Technologies (EdTech B2b)** | April 2024 - Present  
 Building production AI-powered ATS systems processing 1000+ applications daily for K-12 school districts.
 
 ### Key Systems I've Built (Under NDA)
