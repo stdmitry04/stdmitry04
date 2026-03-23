@@ -63,7 +63,7 @@ These demos represent **~30-40% of each full system**—focusing on core functio
 ---
 
 ## Other Public Projects
-### [QuiKard](https://github.com/stdmitry04/quikard) | [Live Demo](https://quikard.net)
+### [QuiKard](https://github.com/stdmitry04/quikard)
 Generate personalized business cards in under 1 minute, export QR code to Apple Wallet in 1 click.
 - Tech: Next.js, TypeScript, TailwindCSS
 
