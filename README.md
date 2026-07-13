@@ -43,8 +43,11 @@ Course review aggregator -- only verified university students (school email) can
 ## Stack
 
 **AI/ML:** RAG Systems - Vector Search (Qdrant) - LLM Tool Calling - Cross-encoder Reranking - Per-user Memory - Eval Design
+
 **Backend:** Python - Django REST - FastAPI - Celery - Node.js - RBAC - Stripe
+
 **Frontend:** TypeScript - React - Next.js - Tailwind CSS
+
 **Infra:** AWS (ECS, RDS, S3) - Terraform - Docker - CI/CD - PostgreSQL - Redis
 
 ---
