@@ -82,8 +82,8 @@ College course review aggregator built at SpartaHack X hackathon.
 ---
 
 ## Education
-**Michigan State University** | B.S. Computer Science, Business Minor | Expected May 2026  
-GPA: 3.8 | Focus: Distributed Systems, AI/ML, High Performance Computing
+**Michigan State University** | B.S. Computer Science, Business Minor | May 2026  
+GPA: 3.8
 
 ---
 
