@@ -1,90 +1,58 @@
 # Dmitry Starodubtsev
-Full-stack engineer building AI-powered hiring platforms and high-load B2B systems.
 
-## Professional Work
-**Software Developer @ APS Data Technologies (EdTech B2b)** | April 2024 - Present  
-Building production AI-powered ATS systems processing 1000+ applications daily for K-12 school districts.
-
-### Key Systems I've Built (Under NDA)
-
-**AI-Powered Application Screening System** → [**See Demo**](https://github.com/stdmitry04/aps-main-demo)
-- RAG-based chatbot with vector embeddings for intelligent document processing
-- OCR pipeline extracting structured data from unstructured documents (transcripts, resumes, letters)
-- Automated applicant routing reducing manual review time by 60%
-- Tech: Next.js, Django, Qdrant, OpenAI API, Docker
-
-**Admissions & Onboarding Platform** → [**See Demo**](https://github.com/stdmitry04/campus-usa-demo)
-- React/Next.js platform supporting 500+ concurrent users with 99.9% uptime
-- Real-time interview scheduling with automated email workflows
-- Multi-stage offer management with role-based permissions
-- Tech: Next.js, Django, PostgreSQL, AWS (EC2, S3, RDS), Docker
-
-**📊 Impact:** Processing 1000+ applications/day across multiple school districts. System maintains 99.9% uptime during peak hiring seasons (Aug-Oct).
-
-> ⚠️ **Note:** The full production systems are proprietary. The demo repositories show core architectures I built:
-> - [**campus-usa-demo**](https://github.com/stdmitry04/campus-usa-demo): AI document processing & RAG chatbot
-> - [**aps-main-demo**](https://github.com/stdmitry04/aps-main-demo): Applicant tracking & hiring workflows
->
-> Production systems include additional microservices, enterprise integrations (DocuSign, ERP), and multi-tenant infrastructure not shown in demos.
+Backend & AI engineer. Building production RAG pipelines, tool-calling agents with memory, and multi-tenant backends. Michigan State CS '26.
 
 ---
 
-## Demo Repositories
+## Production Work
 
-### [AI Application Processing System](https://github.com/stdmitry04/campus-usa-demo)
-**What I built and can show:**
-- RAG chatbot with vector embeddings (Qdrant)
-- OCR pipeline for document extraction (transcripts, PDFs)
-- Django REST API with OpenAI integration
-- Essay & Letter Of Recommendation scoring systems
-- Document processing workflows
+**ERP Platform for K-12 Schools** -> [demo](https://github.com/stdmitry04/aps-main-demo)
+Multi-tenant ERP connecting HR, payroll, and staff provisioning for K-12 school districts. Capability-based RBAC (module.submodule.action), async hiring pipeline that cut screening from 2 hours to 12 minutes, and a tool-calling AI agent with per-user memory. 1,650+ DAU at the 7th largest Illinois school district.
+`Django REST` `Celery` `Next.js 15` `PostgreSQL` `AWS` `Terraform`
 
-**What's under NDA:**
-- Production-scale vector database configuration
-- Multi-district data isolation
-- Enterprise document storage (AWS S3 + compliance)
-- Automated scoring/routing algorithms
+**Admissions & Career Platform** -> [demo](https://github.com/stdmitry04/campus-usa-demo)
+AI-powered student support platform embedded with 5 university partners across the US and India. Guides international students through US college applications, internship searches, hackathons, and financing. RAG pipeline with cross-encoder reranking, async OCR document ingestion, and per-user memory. 200+ daily queries at 95%+ retrieval accuracy.
+`Django REST` `Qdrant` `OpenAI` `LangGraph` `AWS` `Docker`
 
-### [Applicant Tracking Platform](https://github.com/stdmitry04/aps-main-demo)
-**What I built and can show:**
-- Dynamic offer templates with field extraction ({{candidateName}}, {{salary}}, etc.)
-- Multi-stage interview management with nested data structures
-- Token-based onboarding system with document verification
-- Multi-tenant architecture with district isolation and role-based permissions
-
-**What's under NDA:**
-- DocuSign/ERP integrations
-- Production AWS infrastructure (Terraform configs)
-- Automated email/notification workflows
-- Multi-tenant architecture patterns
-
-These demos represent **~30-40% of each full system**—focusing on core functionality I architected and implemented.
+**Safety Straw**
+Full-stack build for a seed-stage startup making straws that glow when a drink is spiked. Stripe-integrated B2C and B2B checkout, async notification system, and an AI support agent that resolved 80%+ of customer inquiries autonomously.
+`Node.js` `Express` `MongoDB` `Stripe` `React`
 
 ---
 
-## Other Public Projects
-### [QuiKard](https://github.com/stdmitry04/quikard)
-Generate personalized business cards in under 1 minute, export QR code to Apple Wallet in 1 click.
-- Tech: Next.js, TypeScript, TailwindCSS
+## Other Projects
 
-### [CourseChecker](https://github.com/neontap/spartahack)
-College course review aggregator built at SpartaHack X hackathon.
-- Tech: React, Node.js
+**[Scheduler](https://github.com/stdmitry04/scheduler)**
+World-agnostic stride scheduler for real-time agent simulations. Any world plugs in via a single DoAction interface. 4-tier priority system (CRITICAL/GAMEPLAY/ECONOMY/COSMETIC) with frame budgets and an async EventQueue for deferred actions. Scales to 50,000+ concurrent agents, compiled to WebAssembly via Emscripten.
+`C++23` `WebAssembly` `Emscripten`
+
+**[QuiKard](https://github.com/stdmitry04/quikard)**
+Digital business card -- create in under a minute, export to Apple Wallet, share via NFC tap.
+`Next.js 15` `FastAPI` `PostgreSQL` `Apple Wallet API`
+
+**[Volunteer Matchmaker](https://github.com/stdmitry04/Volunteer_Matchmaker)**
+Composite-scoring volunteer match system (proximity, skills, urgency, reliability) with Ethereum smart contracts for on-chain donation tracking. SpartaHack XI Blockchain Track 3rd Place.
+`Next.js 15` `Django REST` `Solidity` `Gemini AI`
+
+**[CourseChecker](https://github.com/neontap/spartahack)**
+Course review aggregator -- only verified university students (school email) can submit. Tracks 5 rating dimensions per professor and semester.
+`Next.js 14` `Supabase` `GPT-4` `TypeScript`
 
 ---
 
-## Tech Stack
-**Frontend:** React, Next.js, TypeScript/JavaScript, TailwindCSS  
-**Backend:** Django REST Framework, FastAPI, Node.js  
-**AI/ML:** OpenAI API, RAG systems, Qdrant vector DB  
-**Infrastructure:** AWS (EC2, S3, RDS), Docker, Terraform, PostgreSQL, Redis  
+## Stack
+
+**AI/ML:** RAG Systems - Vector Search (Qdrant) - LLM Tool Calling - Cross-encoder Reranking - Per-user Memory - Eval Design
+**Backend:** Python - Django REST - FastAPI - Celery - Node.js - RBAC - Stripe
+**Frontend:** TypeScript - React - Next.js - Tailwind CSS
+**Infra:** AWS (ECS, RDS, S3) - Terraform - Docker - CI/CD - PostgreSQL - Redis
 
 ---
 
 ## Education
-**Michigan State University** | B.S. Computer Science, Business Minor | May 2026  
-GPA: 3.8
+
+Michigan State University -- B.S. Computer Science, Business Minor - GPA 3.75 - May 2026
 
 ---
 
-📫 **Contact:** [LinkedIn](https://linkedin.com/in/stdmitry04) | starodu5@gmail.com
+[LinkedIn](https://linkedin.com/in/stdmitry04) - starodu5@gmail.com
