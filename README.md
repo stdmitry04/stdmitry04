@@ -6,13 +6,6 @@ Backend & AI engineer. Building production RAG pipelines, tool-calling agents wi
 
 ## Production Work
 
-**ERP Platform for K-12 Schools** -> [demo](https://github.com/stdmitry04/aps-main-demo)
-Multi-tenant ERP connecting HR, payroll, and staff provisioning for K-12 school districts. Capability-based RBAC (module.submodule.action), async hiring pipeline that cut screening from 2 hours to 12 minutes, and a tool-calling AI agent with per-user memory. 1,650+ DAU at the 7th largest Illinois school district.
-`Django REST` `Celery` `Next.js 15` `PostgreSQL` `AWS` `Terraform`
-
-**Admissions & Career Platform** -> [demo](https://github.com/stdmitry04/campus-usa-demo)
-AI-powered student support platform embedded with 5 university partners across the US and India. Guides international students through US college applications, internship searches, hackathons, and financing. RAG pipeline with cross-encoder reranking, async OCR document ingestion, and per-user memory. 200+ daily queries at 95%+ retrieval accuracy.
-`Django REST` `Qdrant` `OpenAI` `LangGraph` `AWS` `Docker`
 
 **Safety Straw**
 Full-stack build for a seed-stage startup making straws that glow when a drink is spiked. Stripe-integrated B2C and B2B checkout, async notification system, and an AI support agent that resolved 80%+ of customer inquiries autonomously.
