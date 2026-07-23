@@ -17,7 +17,7 @@ Full-stack build for a seed-stage startup making straws that glow when a drink i
 ## Other Projects
 
 **[OpsCore](https://github.com/stdmitry-aps/opscore)**
-Small demo of an internal HR and operations platform -- the kind of thing I build in production but can't show. Multi-tenant RBAC where permissions are validated at import time so a misconfigured perm breaks the server on startup, not at 2am when someone triggers the wrong endpoint. AI assistant that runs as a Celery task (not a streaming response) so it finishes even if the client disconnects. Two-stage RAG: Qdrant for candidate retrieval, cross-encoder for reranking. Short-term agent memory in Redis, long-term in Postgres.
+Small demo of an HR and operations platform I'm building at work (production work under NDA). Multi-tenant RBAC where permissions are validated at import time so a misconfigured perm breaks the server on startup, not at 2am when someone triggers the wrong endpoint. AI assistant that runs as a Celery task (not a streaming response) so it finishes even if the client disconnects. Two-stage RAG: Qdrant for candidate retrieval, cross-encoder for reranking. Short-term agent memory in Redis, long-term in Postgres.
 `Django REST` `Next.js 14` `PostgreSQL` `Redis` `Celery` `Qdrant` `Claude API`
 
 **[Scheduler](https://github.com/stdmitry04/scheduler)**
