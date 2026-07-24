@@ -52,4 +52,4 @@ Michigan State University -- B.S. Comput er Science, Business Minor - GPA 3.75 -
 
 ---
 
-[Portfolio](https://dmitrystarodubt sev.com) - [LinkedIn](https://linkedin.com/in /stdmitry04) - starodu5@gmail.com 
+[Portfolio](https://dmitrystarodubtsev.com) - [LinkedIn](https://linkedin.com/in/stdmitry04) - starodu5@gmail.com 
