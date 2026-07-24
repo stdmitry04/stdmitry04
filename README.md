@@ -1,6 +1,6 @@
 # Dmitry Starodubtsev
 
-Backend & AI engineer. Building production RAG pipelines, tool-call ing agents with memory, and multi-tenant back ends
+Backend & AI engineer. Building production RAG pipelines, tool-calling agents with memory, and multi-tenant backends. Michigan State CS '26.
 
 ---
 
@@ -11,45 +11,45 @@ Production work is under NDA. OpsCore below is a demo built to show the kind of 
 ---
 
 ## Other Projects
- 
+
 **[OpsCore](https://github.com/stdmitry04/opscore)**
-Small demo of an HR and operations  platform I'm building at work (production wo rk under NDA). Multi-tenant RBAC where permis sions are validated at import time so a misco nfigured perm breaks the server on startup, n ot at 2am when someone triggers the wrong end point. AI assistant that runs as a Celery tas k (not a streaming response) so it finishes e ven if the client disconnects. Two-stage RAG:  Qdrant for candidate retrieval, cross-encode r for reranking. Short-term agent memory in R edis, long-term in Postgres.
+Small demo of an HR and operations platform I'm building at work (production work under NDA). Multi-tenant RBAC where permissions are validated at import time so a misconfigured perm breaks the server on startup, not at 2am when someone triggers the wrong endpoint. AI assistant that runs as a Celery task (not a streaming response) so it finishes even if the client disconnects. Two-stage RAG: Qdrant for candidate retrieval, cross-encoder for reranking. Short-term agent memory in Redis, long-term in Postgres.
 `Django REST` `Next.js 14` `PostgreSQL` `Redis` `Celery` `Qdrant` `Claude API`
 
 **[Scheduler](https://github.com/stdmitry04/scheduler)**
-World-agnostic  stride scheduler for real-time agent simulat ions. Any world plugs in via a single DoActio n interface. 4-tier priority system (CRITICAL /GAMEPLAY/ECONOMY/COSMETIC) with frame budget s and an async EventQueue for deferred action s. Scales to 50,000+ concurrent agents, compi led to WebAssembly via Emscripten.
-`C++23` `W ebAssembly` `Emscripten`
+World-agnostic stride scheduler for real-time agent simulations. Any world plugs in via a single DoAction interface. 4-tier priority system (CRITICAL/GAMEPLAY/ECONOMY/COSMETIC) with frame budgets and an async EventQueue for deferred actions. Scales to 50,000+ concurrent agents, compiled to WebAssembly via Emscripten.
+`C++23` `WebAssembly` `Emscripten`
 
 **[QuiKard](https://github.com/stdmitry04/quikard)**
-Digital bus iness card -- create in under a minute, expor t to Apple Wallet, share via NFC tap.
-`Next.j s 15` `FastAPI` `PostgreSQL` `Apple Wallet AP I`
+Digital business card -- create in under a minute, export to Apple Wallet, share via NFC tap.
+`Next.js 15` `FastAPI` `PostgreSQL` `Apple Wallet API`
 
 **[Volunteer Matchmaker](https://github.com/stdmitry04/Volunteer_Matchmaker)**
-Composi te-scoring volunteer match system (proximity,  skills, urgency, reliability) with Ethereum  smart contracts for on-chain donation trackin g. SpartaHack XI Blockchain Track 3rd Place.
- `Next.js 15` `Django REST` `Solidity` `Gemini  AI`
+Composite-scoring volunteer match system (proximity, skills, urgency, reliability) with Ethereum smart contracts for on-chain donation tracking. SpartaHack XI Blockchain Track 3rd Place.
+`Next.js 15` `Django REST` `Solidity` `Gemini AI`
 
 **[CourseChecker](https://github.com/neontap/spartahack)**
-Course review aggregator  -- only verified university students (school  email) can submit. Tracks 5 rating dimensions  per professor and semester.
-`Next.js 14` `Su pabase` `GPT-4` `TypeScript`
+Course review aggregator -- only verified university students (school email) can submit. Tracks 5 rating dimensions per professor and semester.
+`Next.js 14` `Supabase` `GPT-4` `TypeScript`
 
 ---
 
 ## Stack
 
- **AI/ML:** RAG Systems - Vector Search (Qdran t) - LLM Tool Calling - Cross-encoder Reranki ng - Per-user Memory - Eval Design
+**AI/ML:** RAG Systems - Vector Search (Qdrant) - LLM Tool Calling - Cross-encoder Reranking - Per-user Memory - Eval Design
 
-**Backend :** Python - Django REST - FastAPI - Celery -  Node.js - RBAC - Stripe
+**Backend:** Python - Django REST - FastAPI - Celery - Node.js - RBAC - Stripe
 
-**Frontend:** TypeS cript - React - Next.js - Tailwind CSS
+**Frontend:** TypeScript - React - Next.js - Tailwind CSS
 
-**Inf ra:** AWS (ECS, RDS, S3) - Terraform - Docker  - CI/CD - PostgreSQL - Redis
-
----
-
-## Educat ion
-
-Michigan State University -- B.S. Comput er Science, Business Minor - GPA 3.75 - May 2026
+**Infra:** AWS (ECS, RDS, S3) - Terraform - Docker - CI/CD - PostgreSQL - Redis
 
 ---
 
-[Portfolio](https://dmitrystarodubtsev.com) - [LinkedIn](https://linkedin.com/in/stdmitry04) - starodu5@gmail.com 
+## Education
+
+Michigan State University -- B.S. Computer Science, Business Minor - GPA 3.75 - May 2026
+
+---
+
+[Portfolio](https://dmitrystarodubtsev.com) - [LinkedIn](https://linkedin.com/in/stdmitry04) - starodu5@gmail.com
