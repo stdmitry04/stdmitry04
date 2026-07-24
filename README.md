@@ -12,7 +12,7 @@ Production work is under NDA. OpsCore below is a demo built to show the kind of 
 
 ## Other Projects
  
-**[OpsCore](https://github.com/stdmitry-aps/opscore)**
+**[OpsCore](https://github.com/stdmitry04/opscore)**
 Small demo of an HR and operations  platform I'm building at work (production wo rk under NDA). Multi-tenant RBAC where permis sions are validated at import time so a misco nfigured perm breaks the server on startup, n ot at 2am when someone triggers the wrong end point. AI assistant that runs as a Celery tas k (not a streaming response) so it finishes e ven if the client disconnects. Two-stage RAG:  Qdrant for candidate retrieval, cross-encode r for reranking. Short-term agent memory in R edis, long-term in Postgres.
 `Django REST` `N ext.js 14` `PostgreSQL` `Redis` `Celery` `Qdr ant` `Claude API`
 
