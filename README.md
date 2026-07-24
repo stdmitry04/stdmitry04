@@ -1,10 +1,10 @@
 # Dmitry Starodubtsev
 
-Backend & AI engineer. Building production RAG pipelines, tool-call ing agents with memory, and multi-tenant back ends. Michigan State CS '26.
+Backend & AI engineer. Building production RAG pipelines, tool-call ing agents with memory, and multi-tenant back ends
 
 ---
 
-## Product ion Work
+## Production Work
 
 Production work is under NDA. OpsCore below is a demo built to show the kind of systems I work on day to day.
 
