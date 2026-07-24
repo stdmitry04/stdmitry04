@@ -14,7 +14,7 @@ Production work is under NDA. OpsCore below is a demo built to show the kind of 
  
 **[OpsCore](https://github.com/stdmitry04/opscore)**
 Small demo of an HR and operations  platform I'm building at work (production wo rk under NDA). Multi-tenant RBAC where permis sions are validated at import time so a misco nfigured perm breaks the server on startup, n ot at 2am when someone triggers the wrong end point. AI assistant that runs as a Celery tas k (not a streaming response) so it finishes e ven if the client disconnects. Two-stage RAG:  Qdrant for candidate retrieval, cross-encode r for reranking. Short-term agent memory in R edis, long-term in Postgres.
-`Django REST` `N ext.js 14` `PostgreSQL` `Redis` `Celery` `Qdr ant` `Claude API`
+`Django REST` `Next.js 14` `PostgreSQL` `Redis` `Celery` `Qdrant` `Claude API`
 
 **[Scheduler](https://github.com/stdmitry04/scheduler)**
 World-agnostic  stride scheduler for real-time agent simulat ions. Any world plugs in via a single DoActio n interface. 4-tier priority system (CRITICAL /GAMEPLAY/ECONOMY/COSMETIC) with frame budget s and an async EventQueue for deferred action s. Scales to 50,000+ concurrent agents, compi led to WebAssembly via Emscripten.
